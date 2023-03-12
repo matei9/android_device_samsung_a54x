@@ -3,3 +3,8 @@ bluetooth.device.default_name=Galaxy F62
 
 ## RIL
 ro.telephony.default_network=9,9
+
+## Vibrator HAL
+ro.vendor.vibrator_hal.click_duration=60
+ro.vendor.vibrator_hal.texture_tick_duration=40
+ro.vendor.vibrator_hal.tick_duration=40
