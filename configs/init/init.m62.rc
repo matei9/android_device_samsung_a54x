@@ -1,0 +1,2 @@
+on property:ro.boot.em.model=SM-M625F
+    setprop bluetooth.device.default_name "Galaxy M62"

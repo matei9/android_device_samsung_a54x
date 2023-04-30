@@ -27,5 +27,12 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
 
+# init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init/init.m62.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m62.rc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+PRODUCT_PACKAGES += \
+    SettingsProviderOverlayM62
