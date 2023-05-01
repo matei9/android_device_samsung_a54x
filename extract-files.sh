@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/firmware/nvram.txt*)
+            sed -i 's/disable_11ax=1/disable_11ax=0/g' "${2}"
+            ;;
         vendor/lib*/libsec-ril*.so)
             "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
             ;;
