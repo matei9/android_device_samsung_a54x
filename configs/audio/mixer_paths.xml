@@ -962,36 +962,26 @@
 	<path name="communication-handset">
 		<path name="voip-rxse" />
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="9" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-gaming-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="131" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-tv-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="4" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-headset">
@@ -1000,8 +990,6 @@
 		<ctl name="HPOUT2 DRE Switch" value="0" />
 		<ctl name="HPOUT2 EDRE Switch" value="0" />
 		<ctl name="Output Ramp Up" value="8ms/6dB" />
-		<ctl name="ABOX Speech Param" value="13" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-headphone">
@@ -1010,22 +998,16 @@
 		<ctl name="HPOUT2 DRE Switch" value="0" />
 		<ctl name="HPOUT2 EDRE Switch" value="0" />
 		<ctl name="Output Ramp Up" value="8ms/6dB" />
-		<ctl name="ABOX Speech Param" value="12" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-bt-sco-headset">
 		<path name="voip-rxse" />
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="7" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-usb-headset">
 		<path name="voip-rxse" />
 		<path name="media-usb-headset" />
-		<ctl name="ABOX Speech Param" value="111" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- samsung voip fmc playback -->
