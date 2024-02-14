@@ -642,10 +642,13 @@
 	</path>
 
 	<path name="dev-main-mic">
-		<path name="dev-dual-mic" />
-		<path name="route-ap-record-txse1" />
-		<ctl name="ABOX OEM AP Call type" value="1" />
-		<ctl name="ABOX OEM NXP Mode" value="2" />
+		<ctl name="IN2L Mux" value="A" />
+		<ctl name="IN2R Mux" value="A" />
+		<ctl name="LHPF1 Input 1" value="IN2L" />
+		<ctl name="ISRC1INT1 Input 1" value="LHPF1" />
+		<ctl name="AIF1TX1 Input 1" value="ISRC1INT1" />
+		<ctl name="AIF1TX2 Input 1" value="ISRC1INT1" />
+		<ctl name="DMIC1 Switch" value="1" />
 	</path>
 
 	<path name="dev-2nd-mic">
@@ -3946,8 +3949,8 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN2L Digital Volume" value="126" />
-		<ctl name="IN2R Digital Volume" value="168" />
+		<ctl name="IN2L Volume" value="12" />
+		<ctl name="IN2L Digital Volume" value="96" />
 	</path>
 
 	<path name="gain-media-2nd-mic">
@@ -3978,7 +3981,8 @@
 
 	<!-- voice recording input volume -->
 	<path name="gain-recording-mic">
-		<path name="gain-media-mic" />
+		<ctl name="IN2L Volume" value="9" />
+		<ctl name="IN2L Digital Volume" value="128" />
 	</path>
 
 	<path name="gain-recording-2nd-mic">
@@ -4027,7 +4031,8 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
-		<path name="gain-media-mic" />
+		<ctl name="IN2L Volume" value="9" />
+		<ctl name="IN2L Digital Volume" value="128" />
 	</path>
 
 	<path name="gain-camcorder-2nd-mic">
@@ -4065,7 +4070,7 @@
 
 	<!-- recognition input volume -->
 	<path name="gain-recognition-mic">
-		<path name="gain-media-mic" />
+		<ctl name="IN2L Digital Volume" value="171" />
 	</path>
 
 	<path name="gain-recognition-2nd-mic">
