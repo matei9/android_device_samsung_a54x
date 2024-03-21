@@ -21,9 +21,6 @@ include vendor/samsung/f62/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/f62
 
-## APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 ## Display
 TARGET_SCREEN_DENSITY := 450
 
