@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/vaultkeeperd|vendor/lib64/libvkservice.so)
+            sed -i 's/ro\.factory\.factory_binary/ro.vendor.factory_binary\x00/g' "${2}"
+            ;;
         vendor/firmware/nvram.txt*)
             sed -i 's/disable_11ax=1/disable_11ax=0/g' "${2}"
             ;;
