@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version E625FDDU3CWC2, unless pinned
+# Proprietary files - from Samsung package version E625FDDS5CXA3, unless pinned
 
 ## Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
