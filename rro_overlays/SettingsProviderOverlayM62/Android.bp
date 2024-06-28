@@ -16,6 +16,5 @@
 runtime_resource_overlay {
     name: "SettingsProviderOverlayM62",
     theme: "SettingsProviderOverlayM62",
-    sdk_version: "current",
     vendor: true
 }
