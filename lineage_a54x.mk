@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-## Inherit from f62 device
-$(call inherit-product, device/samsung/f62/device.mk)
+## Inherit from a54x device
+$(call inherit-product, device/samsung/a54x/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -31,10 +31,10 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_f62
-PRODUCT_DEVICE := f62
+PRODUCT_NAME := lineage_a54x
+PRODUCT_DEVICE := a54x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-E625F
+PRODUCT_MODEL := SM-A546B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 
