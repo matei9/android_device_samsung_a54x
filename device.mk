@@ -15,10 +15,10 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/exynos9820-common/exynos9825-r.mk)
+#$(call inherit-product, device/samsung/exynos9820-common/exynos9825-r.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/f62/f62-vendor.mk)
+$(call inherit-product, vendor/samsung/a54x/a54x-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
@@ -27,9 +27,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
-# Fingerprint Gestures
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
+# Fingerprint Gestures - NOT SUPPORTED BY A54X
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
 
 # init
 PRODUCT_COPY_FILES += \
@@ -38,5 +38,5 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    SettingsProviderOverlayM62
+#PRODUCT_PACKAGES += \ - NOT SUPPORTED BY A54X
+#    SettingsProviderOverlayM62
