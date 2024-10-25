@@ -17,15 +17,15 @@
 include device/samsung/exynos9820-common/BoardConfig9825-r.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/f62/BoardConfigVendor.mk
+include vendor/samsung/a54x/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/f62
+DEVICE_PATH := device/samsung/a54x
 
 ## Display
 TARGET_SCREEN_DENSITY := 450
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9820-f62_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-a54x_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
