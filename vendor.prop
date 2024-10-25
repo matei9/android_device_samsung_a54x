@@ -1,5 +1,5 @@
 ## Bluetooth
-bluetooth.device.default_name=Galaxy F62
+bluetooth.device.default_name=Galaxy A54 5G
 
 ## Fingerprint
 ro.vendor.fingerprint.type=side
