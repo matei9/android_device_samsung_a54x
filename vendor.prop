@@ -2,9 +2,9 @@
 bluetooth.device.default_name=Galaxy A54 5G
 
 ## Fingerprint
-ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.type=under_display
 ro.vendor.fingerprint.sensor_location=1080|800|350
-ro.vendor.fingerprint.supports_gestures=true
+## ro.vendor.fingerprint.supports_gestures=true - NOT SUPPORTED BY A54X
 
 ## RIL
 ro.telephony.default_network=9,9
