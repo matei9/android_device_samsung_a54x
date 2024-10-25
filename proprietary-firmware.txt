@@ -1,4 +1,4 @@
-# Firmware for model SM-A546B - from Samsung package version E625FDDS6CXE2
+# Firmware for model SM-A546B - from Samsung package version A546BXXS9CXH7
 
 cm.bin_SM-A546B
 dqmdbg.img_SM-A546B
@@ -9,16 +9,6 @@ sboot.bin_SM-A546B
 uh.bin_SM-A546B
 up_param.bin_SM-A546B
 
-# Firmware for model SM-M625F - from Samsung package version M625FXXS6CXE3
-
-cm.bin_SM-A546B
-dqmdbg.img_SM-A546B
-keystorage.bin_SM-A546B
-modem.bin_SM-A546B
-modem_debug.bin_SM-A546B
-sboot.bin_SM-A546B
-uh.bin_SM-A546B
-up_param.bin_SM-A546B
 
 # File containing the supported models, one per line
 models
