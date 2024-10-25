@@ -9,9 +9,19 @@ sboot.bin_SM-A546B
 uh.bin_SM-A546B
 up_param.bin_SM-A546B
 
+# Firmware for model SM-M546B - from Samsung package version M546BXXS6CXH1
+
+cm.bin_SM-M546B
+dqmdbg.img_SM-M546B
+keystorage.bin_SM-M546B
+modem.bin_SM-M546B
+modem_debug.bin_SM-M546B
+sboot.bin_SM-M546B
+uh.bin_SM-M546B
+up_param.bin_SM-M546B
 
 # File containing the supported models, one per line
 models
 # Files containing Samsung package version for supported models
 version_SM-A546B
-version_SM-A546B
+version_SM-M546B
